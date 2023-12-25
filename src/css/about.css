@@ -1,0 +1,15 @@
+.container {
+    width: 1440px;
+    padding: 0 60px;
+}
+
+.section-about {}
+
+.hero-content-box {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
