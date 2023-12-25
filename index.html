@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/free-up-space/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    
-    <script type="module" crossorigin src="/free-up-space/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/free-up-space/assets/index-c9db6b34.css">
-  </head>
-  <body>
-    <header class="page-header">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/free-up-space/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanilla App Template</title>
+  
+  <script type="module" crossorigin src="/free-up-space/commonHelpers.js"></script>
+  <link rel="stylesheet" href="/free-up-space/assets/index-12b7bf4e.css">
+</head>
+
+<body>
+  <header class="page-header">
   <div class="header-container container">
     <!-- Logotype -->
-    <a class="logo" href="./index.html">
-      <svg class="logo-icon" width="60" height="60" aria-label="logo">
-        <use href="../img/logo.svg"></use>
-      </svg>
-      Звільни
-      <span class="logo-italic-text">простір</span>
-      <span class="logo-smal-text">Звільніть свій простір з легкістю!</span>
+    <a class="logo-link" href="./index.html">
+      <img src="/free-up-space/assets/logo-054f1f08.png" alt="Logotype" width="80" height="68">
+      <div class="container-text-logo">
+        <div class="container-logo-title">
+          <span class="logo-text">Звільни</span>
+          <span class="logo-italic-text">простір</span>
+        </div>
+        <span class="logo-small-text">Звільніть свій простір з легкістю!</span>
+      </div>
     </a>
     <!-- Navigation  -->
     <nav class="header-nav">
@@ -51,16 +55,15 @@
       <li class="header-contact-item">
         <a class="header-contact-link" href="">
           <svg class="contact-map-icon" width="32" height="32" aria-label="contact map icon">
-            <use href="../img/map.svg"></use>
+            <use href="/free-up-space/assets/map-ec292750.svg#map"></use>
           </svg>
-          м.Вінниця
-          <p>Пн-Сб: 8:00-20:00</p>
+          м.Вінниця <br> Пн-Сб: 8:00-20:00
         </a>
       </li>
       <li class="header-contact-item">
-        <a class="header-contact-link" href="">
+        <a class="header-contact-link" href="tel:+380670000000">
           <svg class="contact-phone-icon" width="32" height="32" aria-label="contact phone icon">
-            <use href="../img/phone.svg"></use>
+            <use xlink:href="/free-up-space/assets/phone-38d95c98.svg#phone"></use>
           </svg>
           +38(067)-000-00-00
         </a>
@@ -69,15 +72,10 @@
   </div>
 </header>
 
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
+  <!-- Loads the specified .html file -->
+  <!-- ENOENT: no such file or directory, open '/home/runner/work/free-up-space/free-up-space/src/partials/vite-promo.html' -->
 
-    <!-- Loads the specified .html file -->
-    ENOENT: no such file or directory, open '/home/runner/work/free-up-space/free-up-space/src/partials/vite-promo.html'
+  
+</body>
 
-    
-  </body>
 </html>
