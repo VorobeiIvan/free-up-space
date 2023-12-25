@@ -1,0 +1,129 @@
+.page-header {}
+
+.header-container {
+    display: flex;
+
+    padding: 0px 80px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid var(--yellow, #DFB71D);
+    background: var(--black, #2E3033);
+}
+
+.container {}
+
+.logo-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.container-text-logo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-logo-title {
+    margin-left: auto;
+}
+
+.logo-text {
+    color: var(--yellow, #DFB71D);
+
+    /* Roboto Medium Italic 16 100% */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 100%;
+    /* 16px */
+}
+
+.logo-italic-text {
+    color: var(--white, #FAFCFB);
+
+    /* Roboto Medium Italic 16 100% */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 100%;
+    /* 16px */
+}
+
+.logo-small-text {
+    color: var(--yellow, #DFB71D);
+    text-align: center;
+
+    /* Roboto Italic 10 100% */
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%;
+    /* 10px */
+}
+
+.header-nav {}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-nav-item {
+    color: var(--white, #FAFCFB);
+
+    /* Roboto Medium 16 150% */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+}
+
+.header-nav-link {}
+
+.header-contact-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-contact-item {
+
+
+    color: var(--white, #FAFCFB);
+    /* Roboto Regular 12 150% */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 18px */
+}
+
+.header-contact-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.contact-map-icon {
+    fill: #DFB71D;
+    stroke: #DFB71D;
+}
+
+.contact-phone-icon {
+    fill: #DFB71D;
+    stroke: #DFB71D;
+}
